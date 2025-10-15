@@ -33,7 +33,6 @@ public class lab8 {
         macLink.click();
         Reporter.log("Clicked on 'Mac' from the dropdown.");
         Select sortBy = new Select(driver.findElement(By.id("input-sort")));
-        // *** FIX APPLIED HERE ***
         sortBy.selectByVisibleText("Name (A - Z)");
         Reporter.log("Selected 'Name (A - Z)' from the Sort By dropdown.");
         driver.findElement(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']//button[1]")).click();
@@ -58,7 +57,6 @@ public class lab8 {
         Assert.assertEquals(macHeading, "Mac", "The page heading is not 'Mac'.");
         Reporter.log("Verified the page heading is 'Mac'.");
         Select sortBy = new Select(driver.findElement(By.id("input-sort")));
-        // *** FIX APPLIED HERE ***
         sortBy.selectByVisibleText("Name (A - Z)");
         Reporter.log("Selected 'Name (A - Z)' from the Sort By dropdown.");
         driver.findElement(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']//button[1]")).click();
