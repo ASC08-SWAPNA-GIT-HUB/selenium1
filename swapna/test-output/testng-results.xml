@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-16T23:30:26 IST" name="s1" finished-at="2025-10-16T23:30:26 IST" duration-ms="28">
+  <suite started-at="2025-10-17T10:47:21 IST" name="Default suite" finished-at="2025-10-17T10:47:46 IST" duration-ms="25087">
     <groups>
     </groups>
-    <test started-at="2025-10-16T23:30:26 IST" name="Test" finished-at="2025-10-16T23:30:26 IST" duration-ms="28">
-    </test> <!-- Test -->
-  </suite> <!-- s1 -->
+    <test started-at="2025-10-17T10:47:21 IST" name="Default test" finished-at="2025-10-17T10:47:46 IST" duration-ms="25087">
+      <class name="pack1.lab14">
+        <test-method signature="registerUserFromExcel()[pri:0, instance:pack1.lab14@1e800aaa]" started-at="2025-10-17T10:47:21 IST" name="registerUserFromExcel" finished-at="2025-10-17T10:47:46 IST" duration-ms="25017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserFromExcel -->
+      </class> <!-- pack1.lab14 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
