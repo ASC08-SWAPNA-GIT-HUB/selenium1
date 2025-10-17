@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pack1.TC008_testNG">
+      <class name="pack1.lab14">
         <methods>
-          <include name="test2"/>
-          <include name="beforeMethod"/>
-          <include name="f"/>
-          <include name="beforeClass"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="registerUserFromExcel"/>
         </methods>
-      </class> <!-- pack1.TC008_testNG -->
+      </class> <!-- pack1.lab14 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
